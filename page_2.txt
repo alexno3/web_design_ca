@@ -1,0 +1,7 @@
+on page two we keep the logo, the website name, the slogan, and the nav
+
+we add the 4 photos and underneath them we add description
+
+photo / name of deck / price
+
+footer

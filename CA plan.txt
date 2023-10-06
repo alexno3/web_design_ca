@@ -1,0 +1,29 @@
+plan, wireframe and develop a website consisting of a minimum of three web pages
+
+
+REQUIREMENTS
+-all pages should have a consistent look, background img, main title, logo, navbar, footer, margins, padding
+-the navbar should contain links to your other web pages
+-ideally, when the user clicks on the logo while on any webpage, the browser should load the homepage
+-a single css stylesheet should be used
+-you must include and use 2-3 google fonts
+-your submission should also include early sketches, wireframes and mood boards to demonstrate how you have planned the designing and development process of your project
+
+HOMEPAGE - should contain
+-a welcome message
+-at least one image
+-some description of the services offered, formatted as a list (ordered or unordered)
+-a table containing (made-up) contact information
+
+SECOND PAGE
+-should contain at least for images, each containing some relevant caption(text)
+-when the user clicks on any image, the third page will be displayed
+-ideally there would be some additional styling to indicate when the user hovers with the mouse over the images
+
+THIRD PAGE
+-should contain a contact / order form asking for name, phone number and email address, all required
+-the name should be of minimum 3 characters long and maximum 20 characters
+-the phone number should be exactly 10 characters long
+-the email address should be validated
+-the form should also contain an area where the user can type comments, at least one radio button group, at least two checkboxes and a dropdown list
+-a submit button - a standard one or as an image, The submit button is not required to do anything.
