@@ -1,0 +1,67 @@
+/* reset */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li { list-style: none; }
+
+a,
+img,
+span,
+button { display: block; }
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img { height: auto; }
+
+button {
+	background: none;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+}
+
+ion-icon { pointer-events: none; }
+
+
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--main-white);
+}
+
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--main-white);
+}
+
+img {
+  width: 40%;
+  display: block;
+}
+
