@@ -20,18 +20,7 @@ a {
 	text-decoration: none;
 }
 
-img { height: auto; }
-
-button {
-	background: none;
-	border: none;
-	font: inherit;
-	cursor: pointer;
-}
-
-ion-icon { pointer-events: none; }
-
-
+/* html */
 
 html {
 	font-size: 62.5%;
@@ -39,28 +28,56 @@ html {
     display: block;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 400;
-    color: var(--main-white);
-}
-
-
-html {
-	font-size: 62.5%;
-	scroll-behavior: smooth;
-    display: block;
-}
+/* body */
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 400;
-    color: var(--main-white);
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: white;
+	background: linear-gradient(to bottom, black,#8b7cad);
 }
 
-img {
+
+/* header */
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+	padding: 5px;
+}
+
+.logo_img {
+	width: 40%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+/* logo img animation */
+.logo_img:hover {
+	animation: rotateOnce 1s linear;
+}
+
+@keyframes rotateOnce {
+	0% {
+			transform: rotate(0deg);
+	}
+	100% {
+			transform: rotate(360deg);
+	}
+}
+
+
+.nav ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav ul li{
+	padding: 10px;
+}
+
+.about_img {
   width: 40%;
   display: block;
 }
