@@ -10,10 +10,6 @@
 
 li { list-style: none; }
 
-a,
-span,
-button { display: block; }
-
 a {
 	color: inherit;
 	text-decoration: none;
@@ -79,14 +75,14 @@ header {
 }
 
 /* get a ready for hover */
-.nav a {
+.glow {
   text-decoration: none;
   position: relative; 
 	transition: color 0.1s ease-in;
 }
 
 /* line for a on hover */
-.nav a::after {
+.glow::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -99,11 +95,11 @@ header {
   transition: transform 0.5s; /* Transition effect for the glow */
 }
 
-.nav a:hover::after {
+.glow:hover::after {
   transform: scaleX(1); /* Expand to full width (100%) on hover */
 }
 
-.nav a:hover{
+.glow:hover{
 	color: rgba(255, 255, 255, 0.799);
 }
 
@@ -120,7 +116,7 @@ header {
   }
 }
 
-.nav a::after {
+.glow:after {
   animation: glow 1s infinite;
   box-shadow: 0 0 10px rgba(181, 51, 51, 0.597);
 }
@@ -155,5 +151,18 @@ header {
 	padding-top: 10%;
 }
 
+
+/* about */
+
+.about_list li{
+	list-style-type: disc;
+	font-size: 30px;
+	font-family: 'Railway', sans-serif;
+	color: rgb(255, 255, 255);
+	line-height: 1.5;
+	margin-left: 20px;
+}
+
+/* table */
 
 
