@@ -195,3 +195,48 @@ header {
 	text-align: center;
 	font-weight: 500;
 }
+
+
+/* page2 style */
+
+.deck-list{
+	display: flex;
+	justify-content: space-between;
+}
+
+.deck-item{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border-radius: 5px;
+}
+
+.deck-item img{
+	width: 300px;
+	height: 400px;
+	object-fit: cover;
+	margin: 5px;
+	transition: transform 0.3s, filter 0.3s;
+	border-radius: 10px;
+}
+
+.deck-item:hover img{
+	transform: scale(1.015);
+	filter: brightness(0.8) blur(0.5px);
+	cursor: pointer;
+}
+
+.deck-item p{
+	font-weight: 500;
+	color: #ff7c1e;
+	transition: font-size 0.2s;
+}
+
+.deck-item:hover p{
+	color: #ff7c1ec8;
+	cursor: pointer;
+}
+
+
+
