@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link css file -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>DeckHaven</title>
+
+  <!-- add google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;700;900&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+
+    <!-- logo -->
+    <a href="https://deckhaven.ie"><img src="./images/logo_black_background.png" alt="logo" class="logo_img"></a>
+
+    <!-- navbar -->
+    <nav class="nav">
+
+      <ul class="nav-list">
+
+        <li><a href="index.html" class="glow">Home</a></li>
+        <li><a href="page2.html" class="glow">Decks</a></li>
+        <li><a href="#" class="glow">Buy a deck</a></li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <!-- line separator -->
+  <div class="separator"></div>
+
+  <main>
+
+    <section class="form">
+
+      <h1>Buy a deck</h1>
+      <!-- Create Form-->
+      <form id="form">
+
+        <!--Form Details -->
+        <div class="form-control">
+
+          <div class="primary-form">
+            <label for="name" id="label-name">
+              Name
+            </label>
+
+            <!-- Input Type Text-->
+            <input type="text" required id="name" placeholder="Enter your name" class="form-input"/>
+          </div>
+
+          <div class="primary-form">
+            <label for="email" id="label-email">
+              Email
+            </label>
+            <!-- Input Type Email-->
+            <input type="email" id="email" placeholder="Enter your email" class="form-input" required/>
+          </div>
+        </div>
+
+
+        <div class="secondary-input">
+          <div class="form-control-dropdown">
+            <!-- Dropdown options-->
+            <select name="role" id="role" required>
+              <option value="choose" selected disabled>What deck best suits you?</option>
+              <option value="navigators">Navigators(15€)</option>
+              <option value="cardistry">Cardistry(25€)</option>
+              <option value="hudson">Hudson(15€)</option>
+              <option value="monarchs">Monarchs(13€)</option>
+            </select>
+          </div>
+
+          <div class="form-control-radio">
+            <label id="first">Would you take a minute to fill in a feedback about our website and service?</label>
+
+
+            <!-- Input Type Radio Button -->
+            <div class="radio-wrapper">
+              <label for="recommend-1">
+                <input type="radio" id="recommend-1" name="recommend">Yes</input>
+              </label>
+              <label for="recommend-2">
+                <input type="radio" id="recommend-2" name="recommend">No</input>
+
+              </label>
+            </div>
+          </div>
+
+          <div class="form-control-textarea">
+            <label for="comment">
+              Any special requests or bulk buys?
+            </label>
+  
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" placeholder="Enter your request here" class="form-input"></textarea>
+          </div>
+
+          <div class="form-control-checkbox">
+
+
+
+            <!-- Input Type Checkbox-->
+            <div class="checkbox-wrapper">
+              <label for="inp-1">
+                <input type="checkbox" name="inp">I agree to your T&C</input>
+              </label>
+              <label for="inp-2">
+                <input type="checkbox" name="inp">I want to subscribe to your monthly newsletter</input>
+              </label>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- Multi-line Text Input Control-->
+        <button class="btn" type="submit" value="submit">
+          Update
+        </button>
+      </form>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>
