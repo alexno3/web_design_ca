@@ -15,6 +15,16 @@ a {
 	text-decoration: none;
 }
 
+/* form and button reset */
+
+input, button, select {
+	font: inherit;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+
 /* html */
 
 html {
@@ -241,3 +251,155 @@ header {
 
 /* page 3 style */
 
+.form h1{
+	text-align: center;
+}
+
+/* Styling the Form */
+
+form {
+	background: hsla(100, 100%, 100%, 0.2);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: left;
+	font-size: 1.8rem;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: hsla(225, 24%, 27%, 0.1);
+	border-radius: 5px;
+}
+
+.primary-form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.primary-form label {
+	color: hsl(0, 0%, 100%);
+	font-weight: 800;
+}
+
+
+/* Styling form-control input ,select, textarea */
+
+.form-input {
+	background-color: white;
+	color: hsl(0, 0%, 0%);
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 1.8rem;
+}
+
+/* styling the secondary part of the form */
+
+.secondary-input {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-block-end: 30px;
+}
+
+
+.form-control-dropdown {
+	background-color: hsla(100, 100%, 100%, 0.10);
+	border: 2px solid transparent;
+	border-radius: 5px;
+	font-size: 1.8rem;
+	font-weight: 800;
+	padding: 5px 10px;
+	transition: 0.45s ease;
+	margin-bottom: 10px;
+}
+
+.form-control-dropdown:hover {
+	border-color: rgb(109, 98, 98);
+}
+
+
+.form-control-radio {
+	display: grid;
+	grid-template-columns: 0.75fr 0.5fr;
+	gap: 20px;
+	margin-bottom: 10px;
+	font-size: 1.8rem;
+	color: rgb(249, 248, 247);
+	font-weight: 800;
+	padding: 10px 5px;
+}
+
+.radio-wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.form-control-radio	#first {
+	font-size: 1.5rem;
+}
+
+.form-control-checkbox {
+	display: flex;
+	
+	gap: 10px;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 1.6rem;
+	color: bisque;
+	margin-bottom: 10px;
+	padding: 10px 10px;
+
+}
+
+.checkbox-wrapper {
+	display: grid;
+	grid-template-columns: 0.25fr 1fr;
+	gap: 10px;
+}
+
+.form-control-textarea {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	color: antiquewhite;
+	font-weight: 800;
+	font-size: 1.6rem;
+	padding: 10px 10px;
+	margin-block-end: 10px;
+}
+
+.form-control-textarea textarea {
+	padding: 5px;
+	text-align: center;
+	border: 2px solid transparent;
+	transition: 0.45s ease;
+}
+
+.form-control-textarea textarea:hover {
+	border-color: goldenrod;
+}
+
+.btn {
+	font-family: 'Roboto';
+	background-color: hsla(100, 100%, 100%, 0.2);
+	position: relative;
+	left: 40%;
+	border: 2px solid black;
+	padding: 10px 20px;
+	font-size: 1.8rem;
+	border-radius: 15px;
+	transition: 0.45s ease;
+}
+
+.btn:hover {
+	background-color: hsla(0, 0%, 100%, 0.77);
+	cursor: pointer;
+}
