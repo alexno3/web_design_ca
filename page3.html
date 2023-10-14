@@ -57,7 +57,7 @@
             </label>
 
             <!-- Input Type Text-->
-            <input type="text" required id="name" placeholder="Enter your name" class="form-input"/>
+            <input type="text" required id="name" placeholder="Enter your name" class="form-input" />
           </div>
 
           <div class="primary-form">
@@ -65,7 +65,7 @@
               Email*
             </label>
             <!-- Input Type Email-->
-            <input type="email" id="email" placeholder="Enter your email" class="form-input" required/>
+            <input type="email" id="email" placeholder="Enter your email" class="form-input" required />
           </div>
         </div>
 
@@ -74,7 +74,7 @@
           <div class="form-control-dropdown">
             <!-- Dropdown options-->
             <select name="role" id="role" required>
-              <option value="choose" selected disabled>What deck best suits you?</option>
+              <option value="choose" selected disabled >What deck best suits you?</option>
               <option value="navigators">Navigators(15€)</option>
               <option value="cardistry">Cardistry(25€)</option>
               <option value="hudson">Hudson(15€)</option>
@@ -89,10 +89,10 @@
             <!-- Input Type Radio Button -->
             <div class="radio-wrapper">
               <label for="recommend-1">
-                <input type="radio" id="recommend-1" name="recommend">Yes</input>
+                <input type="radio" name="recommend" required>Yes</input>
               </label>
-              <label for="recommend-2">
-                <input type="radio" id="recommend-2" name="recommend">No</input>
+              <label for="recommend-">
+                <input type="radio" name="recommend">No</input>
 
               </label>
             </div>
@@ -102,7 +102,7 @@
             <label for="comment">
               Any special requests or bulk buys?
             </label>
-  
+
             <!-- multi-line text input control -->
             <textarea name="comment" id="comment" placeholder="Enter your request here" class="form-input"></textarea>
           </div>
@@ -113,12 +113,12 @@
 
             <!-- Input Type Checkbox-->
             <div class="checkbox-wrapper">
-              <label for="inp-1">
-                <input type="checkbox" name="inp">I agree to your T&C</input>
-              </label>
-              <label for="inp-2">
-                <input type="checkbox" name="inp">I want to subscribe to your monthly newsletter</input>
-              </label>
+
+              <input type="checkbox" name="inp" required>
+              <label for="inp-1">I agree to your T&C</label>
+
+              <input type="checkbox" name="inp">
+              <label for="inp-2">I want to subscribe to your monthly newsletter</label>
             </div>
           </div>
         </div>
@@ -136,9 +136,15 @@
 
   </main>
 
-  <footer>
+  <div class="separator"></div>
 
-  </footer>
+  <div class="footer">
+    <footer>
+
+      all rights reserved ©2023
+
+    </footer>
+  </div>
 </body>
 
 </html>
