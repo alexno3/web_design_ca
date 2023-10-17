@@ -1,0 +1,25 @@
+logo 
+website name - deckhaven
+website logo goes on the left-hand side and the nav goes on the right-hand side!
+
+here comes the nav with three options: Home/Decks/Buy a deck/
+
+paragraph in the banner - Where every deck tells a story/The only place where cardistry flourishes and decks shine.
+insert banner  here
+
+list that describes what we do
+Doing business since ~2001~
+Fast delivery - Our relationship with the curiers go for over 20 years. If it's not at your place in 3 days, it's free(based in Ireland only)
+Special requests - you name it, we provide it. Pineapple pizza? We don't judge.
+Bulk buy - make it a sleeve, a piece or even a whole box of 50 decks
+Charity - 10% of every transaction goes to the Jigsaw Foundation (https://jigsaw.ie)
+
+Contact us
+insert table here
+Contact name, phone number, email
+
+footer
+all rights reserved copyright2023
+
+
+

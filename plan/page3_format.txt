@@ -1,13 +1,16 @@
-we keep the logo, website name, slogan, and nav
+we keep the logo, website name and nav
 
 we have a form that has a heading "Buy a deck"
 
 Name
 Phone number
 Email
-Method of contact: - email - phone
+dropdown list
 Your desired deck: a list of the 4 available decks
+input type radio with a feedback option
 Do you have any other requirements? (textarea)
 confirm tab with I agree to T&C
 confirm tab let me subscribe to the monthly newsletter
 submit button
+
+footer

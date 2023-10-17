@@ -20,7 +20,7 @@
   <header class="header">
 
     <!-- logo -->
-    <a href="https://deckhaven.ie"><img src="./images/logo_black_background.png" alt="logo" class="logo-img"></a>
+    <a href="index.html"><img src="./images/logo_black_background.png" alt="logo" class="logo-img"></a>
 
     <!-- navbar -->
     <nav class="nav">
@@ -29,7 +29,7 @@
 
         <li><a href="index.html" class="glow">Home</a></li>
         <li><a href="page2.html" class="glow">Decks</a></li>
-        <li><a href="#" class="glow">Buy a deck</a></li>
+        <li><a href="page3.html" class="glow">Buy a deck</a></li>
 
       </ul>
 
@@ -57,16 +57,25 @@
             </label>
 
             <!-- input text-->
-            <input type="text" required id="name" placeholder="Enter your name" class="form-input" />
+            <input type="text" required id="name" name="name" placeholder="Enter your name" class="form-input" minlength="3" maxlength="20" />
           </div>
 
           <div class="primary-input">
-            <label for="email" id="label-email">
-              Email*
-            </label>
-            <!-- input email-->
-            <input type="email" id="email" placeholder="Enter your email" class="form-input" required />
+            <label for="phone" id="label-phone">Phone</label>
+
+            <!-- input phone number -->
+          <input type="text" required id="phone" name="phone" placeholder="Enter your 10 digits phone number" class="form-input" maxlength="10" pattern="[0-9]{10}"/>
           </div>
+
+        <div class="primary-input">
+          <label for="email" id="label-email">
+            Email*
+          </label>
+          <!-- input email-->
+          <input type="email" id="email" placeholder="Enter your email" class="form-input" required />
+        </div>
+
+
         </div>
 
 

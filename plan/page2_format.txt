@@ -1,0 +1,7 @@
+on page two we keep the logo, the website name and the nav
+
+we add the 4 photos and underneath them we add the price
+
+photo / name / price
+
+footer
